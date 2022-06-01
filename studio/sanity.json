@@ -5,7 +5,7 @@
     "dataset": "production"
   },
   "project": {
-    "name": "blogProject2022"
+    "name": "Christiania-book-club"
   },
   "plugins": [
     "@sanity/base",
