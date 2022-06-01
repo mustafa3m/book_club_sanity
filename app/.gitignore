@@ -11,3 +11,4 @@ Thumbs.db
 .env.development
 .env.production
 dist
+..
