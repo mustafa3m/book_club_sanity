@@ -5,11 +5,7 @@
 
     <div class="presentation-content-image">
 
-      <img
-        class="presentation-image"
-        :src=" result[0].intro.image"
-        alt="Presentation image"
-      />
+      <img  class="presentation-image" :src=" result[0].intro.image" alt="Presentation image" />
       
     </div>
 
