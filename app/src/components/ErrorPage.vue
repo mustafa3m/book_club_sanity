@@ -1,7 +1,7 @@
 <template>
 
     <div>
-        <img src="images/error404.png" alt="ErrorPage">
+        <img src="../public/images/error404.png" alt="ErrorPage">
 
         <h1>The request page does not exist</h1>
 
