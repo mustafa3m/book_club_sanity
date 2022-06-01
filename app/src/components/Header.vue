@@ -6,13 +6,14 @@
       <nav class="nav_checkbox">
         
          <img class="logo" src="images/logo-club.png" alt="image-logo"> 
-      
         <input type="checkbox" id="tab-nav" class="tab-nav" />
 
         <label for="tab-nav" class="label">
+
           <div class="burger"></div>
           <div class="burger"></div>
           <div class="burger"></div>
+          
         </label>
 
         <ul  class="content_nav">
