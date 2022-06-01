@@ -18,7 +18,7 @@
     mixins: [viewMixin],
      data() {
       return {
-        result: [],
+     
       }
     },
 
