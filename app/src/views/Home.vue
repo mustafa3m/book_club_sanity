@@ -13,11 +13,8 @@
       <div v-for="article in result" :key="article" class="article-container">
 
         <img class="article-image" :src="article.image" alt="profile" />
-
         <h2>{{ article.title }}</h2>
-
         <h2 class="article-author">{{ article.author }}</h2>
-
         <p class="article-content">{{ article.description }}</p>
 
       </div>
