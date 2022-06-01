@@ -1,30 +1,22 @@
 <template>
-
   <main>
-
     <Intro />
 
     <div v-if="loading === true">...</div>
 
-    <div v-else> <h2 class="title">Read ours books</h2> </div>
+    <div v-else><h2 class="title">Read ours books</h2></div>
 
     <div class="article">
-
       <div v-for="article in result" :key="article" class="article-container">
-
         <img class="article-image" :src="article.image" alt="profile" />
         <h2>{{ article.title }}</h2>
         <h2 class="article-author">{{ article.author }}</h2>
         <p class="article-content">{{ article.description }}</p>
-
       </div>
-
     </div>
-
   </main>
 
   <Footer />
-  
 </template>
 
 <script>
@@ -43,22 +35,18 @@
     data() {
       return {
         result: [],
-      }
+      };
     },
-    
 
     /* fetch from sanity  */
     async created() {
       try {
-         await this.sanityFetch(query, {
-        type: "post",
-      })
-        
+        await this.sanityFetch(query, {
+          type: "post",
+        });
       } catch (error) {
         console.log(error);
-        
       }
-     
 
       this.metaTags({
         title: "Christiania book club",
@@ -68,7 +56,6 @@
 </script>
 
 <style lang="css" scoped>
-
   .article-container {
     max-width: 800px;
     margin: 5rem 0 10rem 0;
@@ -81,6 +68,8 @@
     margin-bottom: 5rem;
     border-radius: 0.3rem;
   }
+ 
+ 
   .article {
     display: flex;
     flex-wrap: wrap;
@@ -112,7 +101,6 @@
     color: var(--hint);
     margin-bottom: 3rem;
   }
-  
 
   .article-content {
     max-width: 550px;
@@ -122,7 +110,7 @@
     font-size: 1.3rem;
     line-height: 1.8rem;
   }
-  
+
   .article-author {
     margin-top: 1rem;
   }
