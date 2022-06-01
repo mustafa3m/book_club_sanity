@@ -1,0 +1,17 @@
+*[_type == $type] {
+        _id,
+         title,
+        "author": author->.name,
+        "image": image.asset->.url,
+        description,
+        category,
+      about->{
+  ...,
+      
+ 
+}
+   
+    }
+
+
+ 
