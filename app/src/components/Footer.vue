@@ -6,10 +6,10 @@
       <p>Let s get in touch.</p>
 
       <div  class="icon-image">
-        
-        <a href="https://www.facebook.com/"><img src="/images/facebook.jpg" alt="image facebook" /></a>
-        <a href="https://www.instagram.com/"><img src="/images/twitter.jpg" alt="image twitter" /></a>
-        <a href="https://accounts.google.com/ServiceLogin/signinchooser?hl=no&passive=true&continue=https%3A%2F%2Fwww.google.no%2F&ec=GAZAmgQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin"><img src="/images/mail.jpg" alt="image envelope" /></a>
+
+        <a href="https://www.facebook.com/"><img src="images/facebook.jpg" alt="image facebook" /></a>
+        <a href="https://www.instagram.com/"><img src="images/twitter.jpg" alt="image twitter" /></a>
+        <a href="https://accounts.google.com/ServiceLogin/signinchooser?hl=no&passive=true&continue=https%3A%2F%2Fwww.google.no%2F&ec=GAZAmgQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin"><img src="images/mail.jpg" alt="image envelope" /></a>
 
       </div>
 
