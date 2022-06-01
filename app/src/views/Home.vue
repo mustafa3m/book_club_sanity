@@ -34,7 +34,7 @@
 
     data() {
       return {
-        result: [],
+        
       };
     },
 
@@ -49,7 +49,7 @@
       }
 
       this.metaTags({
-        title: "Christiania book club",
+        title: "Book club",
       });
     },
   };
@@ -69,7 +69,7 @@
     border-radius: 0.3rem;
   }
  
- 
+
   .article {
     display: flex;
     flex-wrap: wrap;
