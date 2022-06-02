@@ -110,7 +110,7 @@
     white-space: pre-line;
   }
   .article-content p {
-    font-size: 1.3rem;
+    font-size: 1rem;
     line-height: 1.8rem;
   }
 
