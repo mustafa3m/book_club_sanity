@@ -77,6 +77,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 2rem;
+    width : 100%;
   }
   .article-actions {
     padding: 0 5rem;
