@@ -70,7 +70,7 @@
   .article {
    display: flex;
     flex-direction: row;
-    flex-wrap:  nowrap;
+    flex-wrap:  wrap;
     gap: 2rem; 
     max-width: 100%;
   }
