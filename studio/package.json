@@ -4,11 +4,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "package.json",
-  "author": "Alejandro V. Rojas <a@alejandro.no>",
+  "author": "Mustafa Muse>",
   "license": "UNLICENSED",
   "scripts": {
-    "start": "sanity start",
-    "build": "sanity build"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --host"
   },
   "keywords": [
     "sanity"
