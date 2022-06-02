@@ -68,15 +68,10 @@
   }
 
   .article {
-    /*  display: flex;
+   display: flex;
     flex-direction: row;
     flex-wrap:  nowrap;
-    gap: 2rem; */
-    display: grid;
-    grid-auto-flow: row;
-    grid-gap: 10px;
-    margin: 30px;
-    overflow: auto;
+    gap: 2rem; 
     max-width: 100%;
   }
   .article-actions {
