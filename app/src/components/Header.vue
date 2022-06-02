@@ -26,28 +26,18 @@
         </ul>
 
       </nav>
+
     </div>
+
   </header>
+  
 </template>
 
 <script>
  
   export default {
 
-    data() {
-
-      return {
-        activeMenu : 'books'   
-      };
-
-    },
-
-    methods: {
-      
     
-     
-     
-    },
   };
 </script>
 

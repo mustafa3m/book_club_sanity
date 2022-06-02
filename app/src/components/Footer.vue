@@ -1,4 +1,5 @@
 <template>
+
   <footer id="footer" >
 
     <div class="icon">
@@ -17,8 +18,9 @@
   
 
   </footer>
+
 </template>
-;
+
 
 <script>
   export default {

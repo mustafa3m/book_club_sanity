@@ -1,5 +1,5 @@
 <template>
-  <div v-if="loading">Loading</div>
+  <div v-if="loading">Loading</div> <!-- den if hindre feil av bilde som kommer før loading -->
 
   <div v-else class="presentation">
 

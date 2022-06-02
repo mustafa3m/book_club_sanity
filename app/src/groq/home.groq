@@ -15,7 +15,7 @@
             "image": image.asset->.url,
             title,
             description, 
-      },
+        },
    
     
     }

@@ -7,6 +7,7 @@
     <div v-else><h2 class="title">Read ours books</h2></div>
 
     <div class="article">
+
       <div v-for="article in result" :key="article" class="article-container">
         <img class="article-image" :src="article.image" alt="profile" />
         <h2>{{ article.title }}</h2>
@@ -14,6 +15,7 @@
         <p class="article-content">{{ article.description }}</p>
       </div>
     </div>
+    
   </main>
 
   <Footer />

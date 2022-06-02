@@ -5,11 +5,17 @@
         "image": image.asset->.url,
         description,
         category,
-      about->{
-  ...,
-      
+        about->{
+           title,
+           description,    
  
-}
+        }, 
+        intro->{
+            "image": image.asset->.url,
+            title,
+            description, 
+        },
+      
    
     }
 

@@ -1,12 +1,14 @@
 <template>
+
 <div v-if="loading === true">...</div>
 
   <div v-else class="about-content-txt">
 
-    <h2>  {{ result[0].about.title }}</h2>
-    <p> {{result[0].about.description }}</p>
+    <h2>{{ result[0].about.title }}</h2>
+    <p>{{result[0].about.description }}</p>
 
   </div>
+
 </template>
 
 <script>
