@@ -74,8 +74,8 @@
 
   .article {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 2rem;
   }
   .article-actions {
