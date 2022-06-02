@@ -57,6 +57,7 @@
   .icon-image {
     display: flex;
     justify-content: center;
+    gap:1rem;
   }
 
   .icon-image a img {
