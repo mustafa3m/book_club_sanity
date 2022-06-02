@@ -75,7 +75,7 @@
   .article {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap:  nowrap;
     gap: 2rem;
     max-width : 100%;
   }
