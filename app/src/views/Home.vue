@@ -106,7 +106,7 @@
   }
 
   .article-content {
-    max-width: 550px;
+    max-width: 250px;
     white-space: pre-line;
   }
   .article-content p {
