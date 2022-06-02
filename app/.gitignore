@@ -5,8 +5,6 @@ package-lock.json
 .DS_Store
 .vscode
 Thumbs.db
-.idea
-*Trash
 .env
 .env.development
 .env.production
