@@ -73,7 +73,7 @@
     flex-wrap:  nowrap;
     gap: 2rem; */
     display: grid;
-    grid-auto-flow: column;
+    grid-auto-flow: row;
     grid-gap: 10px;
     margin: 30px;
     overflow: auto;
