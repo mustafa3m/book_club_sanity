@@ -55,7 +55,7 @@
 
 <style lang="css" scoped>
   .article-container {
-    max-width: 800px;
+    max-width: 400px;
     margin: 5rem 0 10rem 0;
     background: var(--color-white);
     width: 50%;
@@ -68,7 +68,7 @@
   }
 
   .article {
-   display: flex;
+    display: flex;
     flex-direction: row;
     flex-wrap:  wrap;
     gap: 2rem; 
