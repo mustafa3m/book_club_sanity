@@ -58,7 +58,7 @@
     max-width: 800px;
     margin: 5rem 0 10rem 0;
     background: var(--color-white);
-    width: 50%;
+    width: 100%;
     padding: 4rem;
     box-shadow: var(--box-shadow);
     border-radius: 3px;
