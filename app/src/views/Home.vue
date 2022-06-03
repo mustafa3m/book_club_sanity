@@ -132,5 +132,9 @@
     p {
       font-size: 1.9rem;
     }
+     .article-content p {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
   }
 </style>
