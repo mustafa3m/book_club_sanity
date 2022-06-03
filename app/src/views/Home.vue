@@ -9,7 +9,7 @@
     <div class="article">
       <div v-for="article in result" :key="article" class="article-container">
         <img class="article-image" :src="article.image" alt="profile" />
-        <h2>{{ article.title }}</h2>
+        <h2 class="article-title">{{ article.title }}</h2>
         <h2 class="article-author">{{ article.author }}</h2>
         <p class="article-content">{{ article.description }}</p>
       </div>
@@ -47,7 +47,7 @@
       }
 
       this.metaTags({
-        title: "Book club",
+        title: "Christiania Book club",
       });
     },
   };
@@ -86,9 +86,10 @@
     border-radius: 50%;
     margin-top: -3rem;
   }
-  div h2 {
+  .article-title {
     margin-top: 2rem;
     margin-bottom: 0;
+    font-size: 1.4rem;
   }
 
   .title {
@@ -125,10 +126,15 @@
     .article-container {
       gap: 2rem;
       margin-top: 1rem;
-      max-width: 100%;
+      max-width: 200px;
+      width: 100%;
+      padding: 0 2rem;
     }
     .title {
       font-size: 1.2rem;
+    }
+    .article-title {
+      font-size: 0.6rem;
     }
     p {
       font-size: 1.9rem;

@@ -80,21 +80,27 @@
   }
 
   @media screen and (max-width: 600px) {
+    footer{
+      padding: 0 ;
+      width: 100%;
+      margin-top: 1rem;
+
+    }
     .icon-image {
       flex-direction: column;
     }
 
      .icon-image a img {
-    height: 3rem;
-    width: 3rem;
-    max-width: 50%;
+    height: 1.5rem;
+    width: 1.5rem;
+    max-width: 30%;
      }
     .icon p {
-      margin-bottom: 2rem;
+      margin-bottom: 0.2rem;
     }
 
     .icon li{
-      font-size:1rem;
+      font-size:0.1rem;
     }
   }
 </style>

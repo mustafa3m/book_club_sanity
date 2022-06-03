@@ -1,21 +1,20 @@
 <template>
-  <div v-if="loading">Loading</div> <!-- den if hindre feil av bilde som kommer før loading -->
+  <div v-if="loading">Loading</div>
+  <!-- den if hindre feil av bilde som kommer før loading -->
 
   <div v-else class="presentation">
-
     <div class="presentation-content-image">
-
-      <img  class="presentation-image" :src=" result[0].intro.image" alt="Presentation image" />
-      
+      <img
+        class="presentation-image"
+        :src="result[0].intro.image"
+        alt="Presentation image"
+      />
     </div>
 
     <div class="presentation-content-txt">
-
-      <h2>{{  result[0].intro.title }}</h2>
+      <h2>{{ result[0].intro.title }}</h2>
       <p>{{ result[0].intro.description }}</p>
-
     </div>
-   
   </div>
 </template>
 
@@ -26,7 +25,6 @@
 
   export default {
     mixins: [viewMixin],
-
 
     async created() {
       await this.sanityFetch(query, {
@@ -73,7 +71,10 @@
       min-height: 300px;
     }
     .presentation-content-txt {
-      padding: 4rem 2rem;
+      padding: 0;
+    }
+    h2 {
+      font-size: 0.2rem;
     }
   }
 </style>
