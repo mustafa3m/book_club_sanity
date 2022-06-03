@@ -55,7 +55,7 @@
 
 <style lang="css" scoped>
   .article-container {
-    max-width: 400px;
+    max-width: 800px;
     margin: 5rem 0 10rem 0;
     background: var(--color-white);
     width: 50%;
@@ -125,6 +125,7 @@
     .article-container {
       gap: 2rem;
       margin-top: 1rem;
+      max-width: 100%;
     }
     .title {
       font-size: 1.2rem;
