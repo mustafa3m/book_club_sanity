@@ -88,6 +88,7 @@
     }
     .icon-image {
       flex-direction: column;
+        width: 100%;
     }
 
      .icon-image a img {

@@ -120,13 +120,13 @@
 
   @media screen and (max-width: 600px) {
     .article {
-      margin-top: 2rem;
+     
       flex-direction: column;
     }
     .article-container {
       gap: 2rem;
       margin-top: 1rem;
-      max-width: 200px;
+    
       width: 100%;
       padding: 0 2rem;
     }
@@ -134,7 +134,7 @@
       font-size: 1.2rem;
     }
     .article-title {
-      font-size: 0.6rem;
+      font-size: 0.8rem;
     }
     p {
       font-size: 1.9rem;

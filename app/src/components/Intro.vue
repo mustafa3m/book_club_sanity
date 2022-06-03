@@ -12,7 +12,7 @@
     </div>
 
     <div class="presentation-content-txt">
-      <h2>{{ result[0].intro.title }}</h2>
+      <h2 class="presentation-title">{{ result[0].intro.title }}</h2>
       <p>{{ result[0].intro.description }}</p>
     </div>
   </div>
@@ -54,8 +54,9 @@
     justify-content: center;
   }
 
-  .presentation-content-txt h2 {
+    .presentation-title{
     margin-bottom: 2rem;
+    font-size: 2rem;
   }
 
   .presentation-content-txt p {
@@ -73,8 +74,8 @@
     .presentation-content-txt {
       padding: 0;
     }
-    h2 {
-      font-size: 0.2rem;
+    .presentation-title {
+      font-size:2rem;
     }
   }
 </style>
