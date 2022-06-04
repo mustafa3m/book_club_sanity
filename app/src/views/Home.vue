@@ -71,7 +71,7 @@
     display: flex;
     flex-wrap:  wrap;
     flex-direction: row;
-    gap: 2rem; 
+    gap: 3rem; 
     max-width: 100%;
   }
   .article-actions {
