@@ -55,7 +55,7 @@
 
 <style lang="css" scoped>
   .article-container {
-    max-width: 800px;
+    max-width: 600px;
     margin: 1rem 0 3rem 0;
     background: var(--color-white);
     width: 100%;
@@ -71,7 +71,6 @@
     display: flex;
     flex-wrap:  wrap;
     flex-direction: row;
-    
     gap: 2rem; 
     max-width: 100%;
   }
@@ -103,7 +102,7 @@
   }
 
   .article-content {
-    max-width: 550px;
+   /*  max-width: 550px; */
     white-space: pre-line;
   }
   .article-content p {
@@ -126,10 +125,9 @@
       
     }
     .article-container {
-      margin-bottom: 10rem;
-   
+      margin-bottom: 1rem;
       width: 100%;
-      padding: 0 3rem;
+      padding: 0 1rem;
     }
     .title {
       font-size: 1.2rem;
