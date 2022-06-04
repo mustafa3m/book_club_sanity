@@ -75,7 +75,7 @@
       padding: 0;
     }
     .presentation-title {
-      font-size:1rem;
+      font-size:1.8rem;
     }
   }
 </style>
