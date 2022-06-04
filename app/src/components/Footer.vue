@@ -92,9 +92,9 @@
     }
 
      .icon-image a img {
-    height: 1.5rem;
-    width: 1.5rem;
-    max-width: 30%;
+    height: 3rem;
+    width: 3rem;
+    max-width: 100%;
      }
     .icon p {
       margin-bottom: 0.2rem;
