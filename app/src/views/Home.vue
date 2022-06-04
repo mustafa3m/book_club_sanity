@@ -56,21 +56,22 @@
 <style lang="css" scoped>
   .article-container {
     max-width: 800px;
-    margin: 5rem 0 10rem 0;
+    margin: 1rem 0 3rem 0;
     background: var(--color-white);
     width: 100%;
-    padding: 4rem;
+    padding: 2rem;
     box-shadow: var(--box-shadow);
     border-radius: 3px;
-    margin-top: 2rem;
-    margin-bottom: 5rem;
+  /*   margin-top: 2rem; */
+    margin-bottom: 2rem;
     border-radius: 0.3rem;
   }
 
   .article {
     display: flex;
-    flex-direction: row;
     flex-wrap:  wrap;
+    flex-direction: row;
+    
     gap: 2rem; 
     max-width: 100%;
   }
@@ -80,11 +81,11 @@
     border-radius: 0.3rem;
   }
   .article-image {
-    height: 6rem;
+     height: 6rem;
     width: 6rem;
     max-width: 100%;
     border-radius: 50%;
-    margin-top: -3rem;
+    
   }
   .article-title {
     margin-top: 2rem;
@@ -120,21 +121,25 @@
 
   @media screen and (max-width: 600px) {
     .article {
-     
+       width: 100%;
       flex-direction: column;
+      
     }
     .article-container {
-      gap: 2rem;
-      margin-top: 1rem;
-    
+      margin-bottom: 10rem;
+   
       width: 100%;
-      padding: 0 2rem;
+      padding: 0 3rem;
     }
     .title {
       font-size: 1.2rem;
     }
     .article-title {
       font-size: 0.8rem;
+    }
+    .article-image {
+      margin-top: 1rem ;
+
     }
     p {
       font-size: 1.9rem;
