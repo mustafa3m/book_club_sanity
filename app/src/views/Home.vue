@@ -55,7 +55,7 @@
 
 <style lang="css" scoped>
   .article-container {
-    max-width: 600px;
+    max-width: 700px;
     margin: 1rem 0 3rem 0;
     background: var(--color-white);
     width: 100%;
@@ -116,6 +116,10 @@
 
   .btn {
     margin-left: 1rem;
+  }
+
+  div h2{
+    margin-top: 2rem;
   }
 
   @media screen and (max-width: 600px) {
